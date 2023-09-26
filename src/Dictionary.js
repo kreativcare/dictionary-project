@@ -9,7 +9,7 @@ export default function Dictionary() {
     event.preventDefault();
 
     function handleResponse(response) {
-      console.log(response.data.meanings[0]);
+      console.log(response.data);
     }
 
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=17c4t0bff12cb4a64a5e588oa39474f2`;
