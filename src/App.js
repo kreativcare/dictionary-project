@@ -11,7 +11,15 @@ export default function App() {
         <main className="Dictionary-body">
           <Dictionary />
         </main>
-        <footer className="text-center">coded by Stefanie Jahn</footer>
+        <footer className="text-center">
+          coded by Stefanie Jahn and is{" "}
+          <a
+            href="https://github.com/kreativcare/dictionary-project"
+            target="_blank"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );

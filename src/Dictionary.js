@@ -11,8 +11,6 @@ export default function Dictionary() {
     event.preventDefault();
 
     function handleResponse(response) {
-      console.log(response.data);
-      console.log(response.data.meanings[0].definition);
       setResults(response.data);
     }
 
