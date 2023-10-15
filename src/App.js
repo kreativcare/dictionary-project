@@ -9,7 +9,7 @@ export default function App() {
           <h1>Hello Dictionary 📚</h1>
         </header>
         <main className="Dictionary-body">
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="text-center">
           coded by Stefanie Jahn and is{" "}

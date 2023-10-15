@@ -1,5 +1,9 @@
+body {
+  background: #fff5df;
+}
+
 .App-header {
-  margin: 30px auto;
+  margin: 40px auto;
 }
 
 .App {
@@ -11,4 +15,10 @@
 .Dictionary-body {
   margin: 30px auto;
   text-align: left;
+}
+
+.App h1 {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.5;
 }

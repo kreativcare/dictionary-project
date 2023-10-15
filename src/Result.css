@@ -1,0 +1,16 @@
+.Results h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.Phonetic {
+  font-style: italic;
+}
+
+.Results section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
