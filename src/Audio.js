@@ -2,7 +2,6 @@ import React from "react";
 import "./Audio.css";
 
 export default function Audio(props) {
-  console.log(props.audio);
   if (props.audio) {
     return (
       <section className="Audio">

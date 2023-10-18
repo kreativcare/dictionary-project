@@ -21,7 +21,6 @@ export default function Dictionary(props) {
   }
 
   function handleAudioResponse(response) {
-    console.log(response.data);
     setAudio(response.data[0]);
   }
 
