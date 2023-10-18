@@ -6,6 +6,10 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
+.Audio h2 {
+  font-weight: bold;
+}
+
 .Audio .phonetics {
   margin: 30px 0 0;
 }
